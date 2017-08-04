@@ -1,6 +1,6 @@
-[![Latest Version on Packagist](http://img.shields.io/packagist/v/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-my-module)
-[![Installations via composer per month](http://img.shields.io/packagist/dm/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-my-module)
-[![Installations via composer total](http://img.shields.io/packagist/dt/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-my-module)
+[![Latest Version on Packagist](http://img.shields.io/packagist/v/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-tawk-to)
+[![Installations via composer per month](http://img.shields.io/packagist/dm/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-tawk-to)
+[![Installations via composer total](http://img.shields.io/packagist/dt/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-tawk-to)
 
 # Contao Extension: hofff.com - tawk.to Plugin
 
