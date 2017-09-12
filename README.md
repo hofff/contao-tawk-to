@@ -4,13 +4,7 @@
 
 # Contao Extension: hofff.com - tawk.to Plugin
 
-Describe it
-
-
-## Features
-
-- ...
-- ...
+contao-tawk-to is a Contao extension to include the chat services of tawk.to. Create a new content element or module, insert the Site ID delivered by your tawk.to-account and now you can chat with your clients.
 
 
 ## Compatibility
@@ -21,6 +15,7 @@ Describe it
 ## Dependency
 
 There are no dependencies to other extensions, that have to be installed.
+
 
 ## Screenshots
 
