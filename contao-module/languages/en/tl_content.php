@@ -1,6 +1,6 @@
 <?php
 
-$GLOBALS['TL_LANG']['tl_content']['hofff_tawkToPageId']     = array('Page ID', 'Please set Page ID here.');
+$GLOBALS['TL_LANG']['tl_content']['hofff_tawkToPageId']     = array('Site ID', 'Please set Site ID here.');
 $GLOBALS['TL_LANG']['tl_content']['hofff_tawkToWidgetId']   = array('Widget ID', 'Please set Widget ID here.');
 $GLOBALS['TL_LANG']['tl_content']['hofff_tawkToUserJs']     = array('User JS', 'Please set custon Javascript here.');
 
