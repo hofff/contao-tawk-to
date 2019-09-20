@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * Hofff Contao Tawk To Plugin
  *
@@ -15,4 +17,4 @@ $GLOBALS['TL_LANG']['tl_content']['hofff_tawkToPageId']   = ['Site ID', 'Please 
 $GLOBALS['TL_LANG']['tl_content']['hofff_tawkToWidgetId'] = ['Widget ID', 'Please set Widget ID here.'];
 $GLOBALS['TL_LANG']['tl_content']['hofff_tawkToUserJs']   = ['User JS', 'Please set custon Javascript here.'];
 
-$GLOBALS['TL_LANG']['tl_content']['tawk-to_legend'] = "Tawk.to - settings";
+$GLOBALS['TL_LANG']['tl_content']['tawk-to_legend'] = 'Tawk.to - settings';

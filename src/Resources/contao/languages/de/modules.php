@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * Hofff Contao Tawk To Plugin
  *
@@ -11,5 +13,5 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['CTE']['hofff_tawk-to'] = array('Tawk.to Plugin', 'Tawk.to Plugin');
-$GLOBALS['TL_LANG']['FMD']['hofff_tawk-to'] = array('Tawk.to Plugin', 'Tawk.to Plugin');
+$GLOBALS['TL_LANG']['CTE']['hofff_tawk-to'] = ['Tawk.to Plugin', 'Tawk.to Plugin'];
+$GLOBALS['TL_LANG']['FMD']['hofff_tawk-to'] = ['Tawk.to Plugin', 'Tawk.to Plugin'];

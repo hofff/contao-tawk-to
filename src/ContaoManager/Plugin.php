@@ -31,10 +31,9 @@ final class Plugin implements BundlePluginInterface
      */
     public function getBundles(ParserInterface $parser) : array
     {
-        return [
-            BundleConfig::create(HofffContaoTawkToBundle::class)
+        return [BundleConfig::create(HofffContaoTawkToBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class])
-                ->setReplace(['hofff_tawk-to'])
+                ->setReplace(['hofff_tawk-to']),
         ];
     }
 }

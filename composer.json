@@ -41,14 +41,14 @@
     }
   },
   "require-dev": {
-    "contao/manager-plugin": "~2.0"
+    "contao/manager-plugin": "~2.0",
+    "doctrine/coding-standard": "^5.0"
   },
   "extra": {
     "contao-manager-plugin": "Hofff\\Contao\\TawkTo\\ContaoManager\\Plugin",
     "branch-alias": {
-      "dev-master": "3.3.x-dev",
-      "dev-develop": "3.4.x-dev",
-      "dev-support/2.0.x": "2.0.x-dev"
+      "dev-master": "1.0.x-dev",
+      "dev-develop": "2.0.x-dev"
     }
   }
 }

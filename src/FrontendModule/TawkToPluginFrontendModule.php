@@ -32,8 +32,6 @@ final class TawkToPluginFrontendModule extends ContentElement
 
     /**
      * Return if there are no files
-     *
-     * @return string
      */
     public function generate() : string
     {
@@ -49,7 +47,7 @@ final class TawkToPluginFrontendModule extends ContentElement
         }
 
         // Return if there is no page id
-        if (!$this->hofff_tawkToPageId) {
+        if (! $this->hofff_tawkToPageId) {
             return 'Tawk.to Plugin - No PageID is set!';
         }
 
