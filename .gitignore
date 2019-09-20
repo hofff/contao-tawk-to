@@ -10,6 +10,9 @@ Thumbs.db
 .idea/
 nbproject/
 
+# PHPCS
+.phpcs-cache
+
 # Composer
 /vendor/
 composer.phar
