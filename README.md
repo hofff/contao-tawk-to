@@ -1,3 +1,4 @@
+[![Build Status](http://img.shields.io/travis/hofff/contao-tawk-to/master.svg?style=flat)](https://travis-ci.org/netzmacht/contao-toolkit)
 [![Latest Version on Packagist](http://img.shields.io/packagist/v/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-tawk-to)
 [![Installations via composer per month](http://img.shields.io/packagist/dm/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-tawk-to)
 [![Installations via composer total](http://img.shields.io/packagist/dt/hofff/contao-tawk-to.svg?style=flat)](https://packagist.org/packages/hofff/contao-tawk-to)
