@@ -19,5 +19,5 @@ There are no dependencies to other extensions, that have to be installed.
 
 ## Screenshots
 
-![Back end configuration](screenshot-backend.png)
-![Back end configuration](screenshot-frontend.png)
+![Back end configuration](docs/screenshot-backend.png)
+![Back end configuration](docs/screenshot-frontend.png)
