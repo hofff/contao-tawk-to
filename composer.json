@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Hofff\\": "src/"
+      "Hofff\\Contao\\TawkTo\\": "src/"
     }
   }
 }
