@@ -13,5 +13,5 @@ declare(strict_types=1);
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['CTE']['hofff_tawk-to'] = ['Tawk.to Plugin', 'Tawk.to Plugin'];
-$GLOBALS['TL_LANG']['FMD']['hofff_tawk-to'] = ['Tawk.to Plugin', 'Tawk.to Plugin'];
+$GLOBALS['TL_LANG']['CTE']['hofff_tawk_to'] = ['Tawk.to Plugin', 'Tawk.to Plugin'];
+$GLOBALS['TL_LANG']['FMD']['hofff_tawk_to'] = ['Tawk.to Plugin', 'Tawk.to Plugin'];

@@ -13,9 +13,10 @@ declare(strict_types=1);
  * @filesource
  */
 
-$GLOBALS['TL_DCA']['tl_module']['palettes']['hofff_tawk-to']
-    = '{title_legend},type'
-    . ';{tawk-to_legend},hofff_tawkToPageId,hofff_tawkToUserJs' //hofff_tawkToWidgetId,
+$GLOBALS['TL_DCA']['tl_module']['palettes']['hofff_tawk_to']
+    = '{title_legend},name,type'
+    . ';{tawk_to_legend},hofff_tawkToPageId,hofff_tawkToUserJs'
+    . ';{template_legend:hide},customTpl'
     . ';{expert_legend:hide},guests,cssID,space'
     . ';{invisible_legend:hide},invisible,start,stop';
 

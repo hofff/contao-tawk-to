@@ -13,9 +13,10 @@ declare(strict_types=1);
  * @filesource
  */
 
-$GLOBALS['TL_DCA']['tl_content']['palettes']['hofff_tawk-to']
+$GLOBALS['TL_DCA']['tl_content']['palettes']['hofff_tawk_to']
     = '{type_legend},type'
-    . ';{tawk-to_legend},hofff_tawkToPageId,hofff_tawkToUserJs' //hofff_tawkToWidgetId,
+    . ';{tawk_to_legend},hofff_tawkToPageId,hofff_tawkToUserJs'
+    . ';{template_legend:hide},customTpl'
     . ';{expert_legend:hide},guests,cssID,space'
     . ';{invisible_legend:hide},invisible,start,stop';
 
@@ -29,19 +30,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['hofff_tawkToPageId'] = [
     ],
     'sql' => "varchar(128) NOT NULL default ''",
 ];
-/*
-$GLOBALS['TL_DCA']['tl_content']['fields']['hofff_tawkToWidgetId'] = array
-(
-    'label' => &$GLOBALS['TL_LANG']['tl_content']['hofff_tawkToWidgetId'],
-    'exclude' => true,
-    'inputType' => 'text',
-    'eval' => array(
-        'mandatory'=>false,
-        'tl_class' => 'w50',
-    ),
-    'sql' => "varchar(128) NOT NULL default ''",
-);
-*/
+
 $GLOBALS['TL_DCA']['tl_content']['fields']['hofff_tawkToUserJs'] = [
     'label' => &$GLOBALS['TL_LANG']['tl_content']['hofff_tawkToUserJs'],
     'exclude' => true,

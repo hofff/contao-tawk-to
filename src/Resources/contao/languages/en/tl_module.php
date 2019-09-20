@@ -17,4 +17,4 @@ $GLOBALS['TL_LANG']['tl_module']['hofff_tawkToPageId']   = ['Site ID', 'Please s
 $GLOBALS['TL_LANG']['tl_module']['hofff_tawkToWidgetId'] = ['Widget ID', 'Please set Widget ID here.'];
 $GLOBALS['TL_LANG']['tl_module']['hofff_tawkToUserJs']   = ['User JS', 'Please set custon Javascript here.'];
 
-$GLOBALS['TL_LANG']['tl_module']['tawk-to_legend'] = 'Tawk.to - settings';
+$GLOBALS['TL_LANG']['tl_module']['tawk_to_legend'] = 'Tawk.to - settings';

@@ -35,5 +35,5 @@ final class TawkToPluginFrontendModule extends ContentElement
      *
      * @var string
      */
-    protected $strTemplate = 'mod_tawk_to';
+    protected $strTemplate = 'mod_hofff_tawk_to';
 }
