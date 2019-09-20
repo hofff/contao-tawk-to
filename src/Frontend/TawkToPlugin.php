@@ -13,23 +13,16 @@
 
 declare(strict_types=1);
 
-namespace Hofff\Contao\TawkTo\FrontendModule;
+namespace Hofff\Contao\TawkTo\Frontend;
 
 use Contao\BackendTemplate;
-use Contao\ContentElement;
+use const TL_MODE;
 
 /**
- * Class ContentRecursiveDownloadFolder
+ * Trait TawkToPlugin
  */
-final class TawkToPluginFrontendModule extends ContentElement
+trait TawkToPlugin
 {
-    /**
-     * Template
-     *
-     * @var string
-     */
-    protected $strTemplate = 'ce_tawk_to';
-
     /**
      * Return if there are no files
      */
@@ -59,7 +52,6 @@ final class TawkToPluginFrontendModule extends ContentElement
      */
     protected function compile() : void
     {
-        // set params
         $this->Template->tawkToPageId   = $this->hofff_tawkToPageId;
         $this->Template->tawkToWidgetId = $this->hofff_tawkToWidgetId;
         $this->Template->tawkToUserJs   = $this->hofff_tawkToUserJs;

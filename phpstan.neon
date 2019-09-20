@@ -1,0 +1,9 @@
+
+parameters:
+  autoload_files:
+    - %currentWorkingDirectory%/vendor/contao/core-bundle/src/Resources/contao/helper/functions.php
+
+  ignoreErrors:
+    - '#Access to an undefined property Contao\\BackendTemplate#'
+    - '#Constant TL_MODE not found\.#'
+    - '#Used constant TL_MODE not found\.#'

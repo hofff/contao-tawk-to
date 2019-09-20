@@ -13,8 +13,8 @@ declare(strict_types=1);
  * @filesource
  */
 
-use Hofff\Contao\TawkTo\ContentElement\TawkToPluginElement;
-use Hofff\Contao\TawkTo\FrontendModule\TawkToPluginFrontendModule;
+use Hofff\Contao\TawkTo\Frontend\ContentElement\TawkToPluginElement;
+use Hofff\Contao\TawkTo\Frontend\FrontendModule\TawkToPluginFrontendModule;
 
 $GLOBALS['TL_CTE']['includes']['hofff_tawk_to'] = TawkToPluginElement::class;
 
