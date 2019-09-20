@@ -54,5 +54,5 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['hofff_tawkToUserJs'] = [
         'tl_class' => 'clr',
     ],
     'explanation' => 'insertTags',
-    'sql' => 'text NOT NULL',
+    'sql' => 'text default NULL',
 ];

@@ -29,19 +29,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['hofff_tawkToPageId'] = [
     ],
     'sql' => "varchar(128) NOT NULL default ''",
 ];
-/*
-$GLOBALS['TL_DCA']['tl_module']['fields']['hofff_tawkToWidgetId'] = array
-(
-    'label' => &$GLOBALS['TL_LANG']['tl_module']['hofff_tawkToWidgetId'],
-    'exclude' => true,
-    'inputType' => 'text',
-    'eval' => array(
-        'mandatory'=>false,
-        'tl_class' => 'w50',
-    ),
-    'sql' => "varchar(128) NOT NULL default ''",
-);
-*/
+
 $GLOBALS['TL_DCA']['tl_module']['fields']['hofff_tawkToUserJs'] = [
     'label' => &$GLOBALS['TL_LANG']['tl_module']['hofff_tawkToUserJs'],
     'exclude' => true,
@@ -54,5 +42,5 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['hofff_tawkToUserJs'] = [
         'tl_class' => 'clr',
     ],
     'explanation' => 'insertTags',
-    'sql' => 'text NOT NULL',
+    'sql' => 'text default NULL',
 ];
