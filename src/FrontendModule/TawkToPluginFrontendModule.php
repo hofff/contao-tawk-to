@@ -1,42 +1,28 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * Hofff Contao Tawk To Plugin
  *
- * Copyright (c) 2005-2015 Leo Feyer
- *
- * @package Hofff_tawk-to
- * @link    https://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * @package    contao-tawk-to
+ * @author     Mathias Arzberger <develop@pdir.de>
+ * @author     David Molineus <david.molineus@netzmacht.de>
+ * @copyright  2017-2019 netzmacht David Molineus.
+ * @license    LGPL-3.0-or-later https://github.com/hofff/contao-tawk-to/blob/master/LICENSE
+ * @filesource
  */
 
+declare(strict_types=1);
 
-/**
- * Run in a custom namespace, so the class can be replaced
- */
+namespace Hofff\Contao\TawkTo\FrontendModule;
 
-namespace Hofff\Contao\TawkTo\ContentElement;
-
+use Contao\BackendTemplate;
+use Contao\ContentElement;
 
 /**
  * Class ContentRecursiveDownloadFolder
- *
- * Front end content element "hofff_tawk-to".
- *
- * @copyright  Hofff.com 2017
- * @author     Mathias Arzberger <develop@pdir.de>
- * @package    Hofff_tawk-to
  */
-class TawkToPlugin extends \Contao\ContentElement
+final class TawkToPluginFrontendModule extends ContentElement
 {
-
-    /**
-     * Files object
-     *
-     * @var \FilesModel
-     */
-    protected $objFolder;
-
     /**
      * Template
      *
@@ -44,21 +30,20 @@ class TawkToPlugin extends \Contao\ContentElement
      */
     protected $strTemplate = 'ce_tawk_to';
 
-
     /**
      * Return if there are no files
      *
      * @return string
      */
-    public function generate()
+    public function generate() : string
     {
-        if (TL_MODE == 'BE') {
-            $objTemplate           = new \BackendTemplate('be_wildcard');
+        if (TL_MODE === 'BE') {
+            $objTemplate           = new BackendTemplate('be_wildcard');
             $objTemplate->wildcard = '### Tawk.to Plugin ###';
             $objTemplate->title    = $this->headline;
             $objTemplate->id       = $this->id;
             $objTemplate->link     = $this->name;
-            $objTemplate->href     = 'contao/main.php?do=themes&amp;table=tl_module&amp;act=edit&amp;id=' . $this->id;
+            $objTemplate->href     = 'contao?do=themes&amp;table=tl_module&amp;act=edit&amp;id=' . $this->id;
 
             return $objTemplate->parse();
         }
@@ -71,11 +56,10 @@ class TawkToPlugin extends \Contao\ContentElement
         return parent::generate();
     }
 
-
     /**
      * Generate the content element
      */
-    protected function compile()
+    protected function compile() : void
     {
         // set params
         $this->Template->tawkToPageId   = $this->hofff_tawkToPageId;

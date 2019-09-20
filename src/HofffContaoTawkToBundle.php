@@ -11,5 +11,12 @@
  * @filesource
  */
 
-$GLOBALS['TL_LANG']['CTE']['hofff_tawk-to'] = array('Tawk.to Plugin', 'Tawk.to Plugin');
-$GLOBALS['TL_LANG']['FMD']['hofff_tawk-to'] = array('Tawk.to Plugin', 'Tawk.to Plugin');
+declare(strict_types=1);
+
+namespace Hofff\Contao\TawkTo;
+
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+final class HofffContaoTawkToBundle extends Bundle
+{
+}
