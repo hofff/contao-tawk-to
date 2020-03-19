@@ -33,19 +33,25 @@
   "require": {
     "php": "^7.1",
     "contao/core-bundle": "^4.4",
+    "symfony/config": "^3.3 || ^4.0",
+    "symfony/dependency-injection": "^3.3 || ^4.0",
     "symfony/http-kernel": "^3.3 || ^4.0"
+  },
+  "conflict": {
+    "hofff/contao-consent-bridge": "<1.0 || >= 2.0"
   },
   "require-dev": {
     "contao/manager-plugin": "~2.1",
     "doctrine/coding-standard": "^5.0",
+    "hofff/contao-consent-bridge": "^1.0@beta",
     "pdepend/pdepend": "^2.5",
     "phpcq/autoload-validation": "^1.2",
     "phpcq/branch-alias-validation": "^1.2",
     "phpcq/phpcq": "^1.2",
     "phploc/phploc": "^4.0 || ^5.0",
     "phpmd/phpmd": "^2.6",
-    "sebastian/phpcpd": "^4.1",
-    "phpstan/phpstan": "^0.11.16"
+    "phpstan/phpstan": "^0.11.16",
+    "sebastian/phpcpd": "^4.1"
   },
   "extra": {
     "branch-alias": {
