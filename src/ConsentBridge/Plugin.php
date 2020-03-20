@@ -14,19 +14,18 @@ declare(strict_types=1);
 
 namespace Hofff\Contao\TawkTo\ConsentBridge;
 
+use Hofff\Contao\Consent\Bridge\Bridge;
 use Hofff\Contao\Consent\Bridge\Plugin\BasePlugin;
+use Hofff\Contao\Consent\Bridge\Render\RenderInformation;
 
 final class Plugin extends BasePlugin
 {
-    /** @inheritDoc */
-    public function supportedContentElements() : array
+    public function load(Bridge $bridge) : void
     {
-        return ['hofff_tawk_to'];
-    }
+        $renderInformation = RenderInformation::autoRenderWithoutPlaceholder();
 
-    /** @inheritDoc */
-    public function supportedFrontendModules() : array
-    {
-        return ['hofff_tawk_to'];
+        $bridge
+            ->supportContentElement('hofff_tawk_to', $renderInformation)
+            ->supportFrontendModule('hofff_tawk_to', $renderInformation);
     }
 }

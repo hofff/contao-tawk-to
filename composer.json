@@ -43,7 +43,7 @@
   "require-dev": {
     "contao/manager-plugin": "~2.1",
     "doctrine/coding-standard": "^5.0",
-    "hofff/contao-consent-bridge": "^1.0@beta",
+    "hofff/contao-consent-bridge": "^1.0@dev",
     "pdepend/pdepend": "^2.5",
     "phpcq/autoload-validation": "^1.2",
     "phpcq/branch-alias-validation": "^1.2",
