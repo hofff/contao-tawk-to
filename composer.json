@@ -38,9 +38,6 @@
     "symfony/dependency-injection": "^3.3 || ^4.0",
     "symfony/http-kernel": "^3.3 || ^4.0"
   },
-  "conflict": {
-    "hofff/contao-consent-bridge": ">= 2.0"
-  },
   "require-dev": {
     "contao/manager-plugin": "~2.1",
     "doctrine/coding-standard": "^5.0",
