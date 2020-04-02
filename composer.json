@@ -1,6 +1,5 @@
 {
   "name": "hofff/contao-tawk-to",
-  "type": "contao-module",
   "description": "Content element or module for Contao CMS to integrate tawk.to service.",
   "keywords": [
     "contao",
@@ -8,32 +7,26 @@
     "chat",
     "live"
   ],
-  "homepage": "https://www.hofff.com",
+  "type": "contao-bundle",
   "license": "LGPL-3.0-or-later",
+  "homepage": "https://www.hofff.com",
   "authors": [
+    {
+      "name": "David Molineus",
+      "email": "david@hofff.com",
+      "homepage": "https://www.hofff.com",
+      "role": "Developer"
+    },
     {
       "name": "Nicky Hoff",
       "email": "nick@hofff.com",
       "homepage": "https://www.hofff.com",
       "role": "Manager"
-    },
-    {
-      "name": "Mathias Arzberger",
-      "email": "mathias@hofff.com",
-      "homepage": "https://www.hofff.com",
-      "role": "Developer"
-    },
-    {
-      "name": "David Molineus",
-      "email": "david@hofff.com",
-      "homepage": "https://hofff.com/",
-      "role": "Developer"
     }
   ],
   "require": {
     "php": "^7.1",
     "contao/core-bundle": "^4.4",
-    "hofff/contao-consent-bridge": "^1.0@dev",
     "symfony/config": "^3.3 || ^4.0",
     "symfony/dependency-injection": "^3.3 || ^4.0",
     "symfony/http-kernel": "^3.3 || ^4.0"
@@ -41,6 +34,7 @@
   "require-dev": {
     "contao/manager-plugin": "~2.1",
     "doctrine/coding-standard": "^5.0",
+    "hofff/contao-consent-bridge": "^1.0",
     "pdepend/pdepend": "^2.5",
     "phpcq/autoload-validation": "^1.2",
     "phpcq/branch-alias-validation": "^1.2",
@@ -50,10 +44,13 @@
     "phpstan/phpstan": "^0.11.16",
     "sebastian/phpcpd": "^4.1"
   },
+  "conflict": {
+    "hofff/contao-consent-bridge": "<1.0 || >= 2.0"
+  },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0.x-dev",
-      "dev-develop": "2.1.x-dev"
+      "dev-master": "2.1.x-dev",
+      "dev-develop": "2.2.x-dev"
     },
     "contao-manager-plugin": "Hofff\\Contao\\TawkTo\\ContaoManager\\Plugin"
   },
